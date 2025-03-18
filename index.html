@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Página HTML</title>
+        <style>
+            body {
+                background-color: rgb(233, 227, 215);
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+            table {
+                border-collapse: collapse;
+            }
+            tr {
+                border-bottom: 2px solid #b6b2b2;
+                background-color:beige;
+            }
+            tr:hover {
+                background-color:rgb(225, 240, 250);
+            }
+            #h1principal { 
+                color:rgb(231, 201, 119);
+            }
+            .textoprincipal {
+                font-weight: bold;
+            } 
+        </style> <! las clases se llaman con "." y las ids con "#">
+    </head>
+
+    <body>
+        <h1 id="h1principal" class="textoprincipal">Contenido de la pagina</h1>
+        <h2>Contenido de la pagina</h2>
+        <h3>Contenido de la pagina</h3>
+        <h4>Contenido de la pagina</h4>
+        <h5>Contenido de la pagina</h5>
+        <h6 class="textoprincipal">Contenido de la pagina</h6>
+
+        <a href="https://www.w3schools.com/" target="_blank">W3School</a>
+
+
+        <br> 
+        <hr>
+
+        <table width="100%">
+            <tr>
+            <th width="50%">Company</th> <! el width es para declarar el ancho de la tabla, manteniendo el valor anterior del 100% de la pagina>  
+            <th width="25%">Contact</th> 
+            <th width="25%">Country</th>
+            </tr>
+            <tr>
+            <td>Alfreds Futterkiste</td>
+            <td>Maria Anders</td>
+            <td>Germany</td>
+            </tr>
+            <tr>
+            <td>Centro comercial Moctezuma</td>
+            <td>Francisco Chang</td>
+            <td>Mexico</td> <! el rowpan para juntar columnas y el colspan para juntar filas>
+            </tr>
+        </table>
+
+        <hr>
+        
+        <p class="textoprincipal">This is a paragraph.</p>
+        <p>This is another paragraph.</p>
+
+        <hr>
+
+        <ul>
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+        </ul>
+        
+        <ol>
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+        </ol>
+
+        <video width="960" height="540" autoplay loop muted>
+            <source src="c:\Users\elsuc\Downloads\mov_bbb.mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+        </video>
+        
+        <hr>
+        <iframe width="420" height="315"
+        src="https://www.youtube.com/embed/tgbNymZ7vqY">
+        </iframe>
+
+    </body>
+</html>
